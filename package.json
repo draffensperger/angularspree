@@ -56,6 +56,7 @@
     "@ngx-lite/json-ld": "^0.4.2",
     "@ngx-progressbar/core": "^5.0.1",
     "@ngx-progressbar/http": "^5.0.1",
+    "@opencensus/opencensus-web": "file:../opencensus-web",
     "@types/crypto-js": "^3.1.40",
     "angular-svg-round-progressbar": "^2.0.0",
     "bootstrap": "^4.1.3",
