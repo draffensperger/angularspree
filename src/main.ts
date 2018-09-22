@@ -6,7 +6,7 @@ import {AppModule} from './app/app.module';
 import {environment} from './environments/environment';
 
 const AGENT_GATEWAY_ENDPOINT =
-    'http://35.188.49.227/v1/export/spans?key=AIzaSyD9uVrCjOi7mf6vKYAmTC7PSz2bqQ0vYbQ';
+    'http://35.241.12.230/v1/export/spans?key=AIzaSyD9uVrCjOi7mf6vKYAmTC7PSz2bqQ0vYbQ';
 startOpenCensusWeb(AGENT_GATEWAY_ENDPOINT);
 
 if (environment.production) {

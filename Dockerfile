@@ -7,7 +7,5 @@ WORKDIR $HOME
 
 COPY dist/browser/* ./
 
-WORKDIR $HOME/$APP_NAME/dist
-
 ENTRYPOINT ["static"]
-CMD ["--port", "8080"]
+CMD ["-a", "0.0.0.0", "-p", "8080"]
