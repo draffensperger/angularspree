@@ -43,3 +43,8 @@ testem.log
 Thumbs.db
 /functions/node_modules
 documentation
+
+#Custom Config
+/src/config/custom
+
+bundle/
